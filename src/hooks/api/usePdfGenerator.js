@@ -47,15 +47,3 @@ export default function generatePdf({ fullText, printRefs }){
       savePdfText(fullText);
     });
 }
-
-/* async function savePdfText(fullText){
-  try {
-    await useText(fullText);
-    toast('Seu PDF foi salvo!');
-    //navigate('/dashboard');
-    console.log('deu bom');
-  } catch (err) {
-    console.log('deu ruim');
-    toast('Não conseguimos salvar seu PDF!');
-  }
-} */

@@ -13,7 +13,5 @@ export async function storeText(fullText) {
     },
   });
 
-  console.log(response);
-
   return response.data;
 }
